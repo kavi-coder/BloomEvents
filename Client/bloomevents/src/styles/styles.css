@@ -1,0 +1,180 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .footer-social-media {
+    @apply inline px-2 mt-2 text-2xl text-[#ffa537] hover:scale-[1.2] hover:duration-300;
+  }
+  .footer-links {
+    @apply text-base hover:text-[#ffc277] hover:duration-200;
+  }
+  .success-card-image {
+    @apply text-[#feba66] mx-auto text-center border-[#feba66] p-8 rounded-3xl border-solid border-2 text-[100px];
+  }
+
+  .service-drop-down {
+    @apply w-6/12 border border-[#ffc277] border-solid mx-1 focus:border-2;
+  }
+
+  .service-card {
+    @apply flex overflow-hidden min-h-[224px]  border-[#ffc782] w-8/12 mx-auto my-5 
+        text-center border rounded-md drop-shadow-lg hover:bg-[#ffe8cc];
+  }
+
+  .service-card-area {
+    @apply my-0;
+  }
+
+  .service-card-icon {
+    @apply mr-2 text-[#c26d06];
+  }
+
+  .service-card-icon-details {
+    @apply flex items-center mr-6;
+  }
+
+  .provider-detail-dialog-box-icon {
+    @apply text-3xl hover:scale-[1.1] rounded-full p-2 hover:duration-300 hover:text-[#c26d06] hover:bg-[#ffd09b];
+  }
+
+  .pro-dialog-h3 {
+    @apply flex items-center mr-6 my-1 text-[#000];
+  }
+
+  .pro-dialog-span {
+    @apply mx-1 text-[#c26d06];
+  }
+
+  .buttonIn {
+    @apply relative;
+  }
+
+  .showPw {
+    @apply flex items-center px-3 ml-1 /*border-2 border-[#c26d06] border-solid*/ text-[#c26d06] text-xl font-bold cursor-pointer;
+  }
+
+  .form-input-main-div {
+    @apply flex justify-between block w-full;
+  }
+
+  .form-input-sub-div {
+    @apply w-[49%] col-span-5 my-3 buttonIn sm:col-span-4;
+  }
+
+  .form-textfield-double {
+    @apply w-full;
+  }
+
+  .login-form-btn {
+    @apply inline-flex items-center justify-center px-4 py-2 text-base font-medium text-white bg-[#ffa537] border border-transparent rounded-md shadow-sm hover:bg-[#d48019] focus:outline-none focus:ring-2 focus:ring-[#d48019] focus:ring-offset-2 w-full;
+  }
+
+  .upadate-propic {
+    @apply border-2 border-solid w-[500px] border-[#000] opacity-100 h-[500px] mx-auto hover:bg-[#000]; /* bg-gradient-to-r from-cyan-500 to-blue-500; */
+  }
+
+  .my-event-card-btn {
+    @apply h-10 px-2 py-1 hover:text-[#ffff] rounded-md items-center  duration-300 border-2 border-solid;
+  }
+  .logged-nav-bar-propic {
+    @apply rounded-full w-[45px] h-[45px];
+  }
+
+  .logo-file-upload {
+    @apply p-5 border  text-transparent h-[300px] w-[310px] rounded-full file:bg-transparent file:border-none file:text-transparent;
+  }
+
+  .react-hook-form-btn {
+    @apply inline-flex items-center justify-center px-4 py-2 text-sm font-medium text-white border border-transparent rounded-md shadow-sm;
+  }
+
+  .react-hook-form-btn-div {
+    @apply flex justify-end w-full px-4 py-3 text-right bg-gray-50 sm:px-6;
+  }
+
+  .react-hook-form-btn-submit {
+    @apply bg-[#ffa537] hover:bg-[#d48019];
+  }
+
+  .image-info-delete-btn {
+    @apply absolute opacity-0 hover:opacity-100 duration-200 flex justify-center items-center h-[200px] w-full bg-[#ffffffa9] rounded-lg;
+  }
+
+  .react-hook-form-btn-delete {
+    @apply mr-3 bg-red-600 hover:bg-red-700;
+  }
+
+  /* .placed-event-row-btn {
+    @apply !p-3 rounded-full;
+  } */
+}
+
+.my-event-card-btns > button {
+  margin: 0 8px;
+}
+
+.upadate-propic {
+  /* background-image: url('img/man.jpg'); */
+  background-size: cover;
+  border-radius: 100%;
+  color: transparent;
+  border: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  transition: box-shadow 0.2s ease-in-out;
+}
+.upadate-propic:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("img/parallax.jpg");
+
+  /* Set a specific height */
+  min-height: 400px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.MuiTabs-indicator {
+  background-color: #ffa537 !important;
+}
+.Mui-selected {
+  color: #ffa537 !important;
+  border-bottom: #ffa537 1px solid !important;
+  background-color: #ffd8a885 !important;
+}
+.css-5ryogn-MuiButtonBase-root-MuiSwitch-switchBase.Mui-checked
+  + .MuiSwitch-track {
+  background-color: #ffa537 !important;
+}
+.css-5ryogn-MuiButtonBase-root-MuiSwitch-switchBase.Mui-checked {
+  color: #ffa537 !important;
+}
+.MuiTabs-vertical {
+  width: 20% !important;
+}
+.MuiButtonBase-root {
+  border-bottom: 1px solid red;
+}
+
+/* signup dropdown */
+.Mui-focused > label {
+  color: #ffa537 !important;
+}
+
+.MuiButton-textPrimary {
+  color: #ffa537 !important;
+}
+
+.MuiInputBase {
+  border-color: #ffa537 !important;
+}
+#demo-simple-select-standard-label {
+  color: #ffa537;
+}

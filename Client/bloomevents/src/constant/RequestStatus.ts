@@ -1,0 +1,6 @@
+export enum RequestStatus {
+  SUCCESS = 1,
+  ERROR = "ERROR",
+  CHANGE_PASSWORD = "CHANGE_PASSWORD",
+  UNAUTHORIZED = "UNAUTHORIZED",
+}

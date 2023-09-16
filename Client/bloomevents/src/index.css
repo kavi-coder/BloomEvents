@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+@font-face {
+  font-family: DMsnans;
+  src: url('fonts/DMSans-Regular.ttf');
+}
+
+:root {
+  --blue: #1e90ff;
+  --white: #ffffff;
+  --orange: #FF4C0A;
+  --bg-pink: #ffe09c;
+}
+
+body {
+  margin: 0;
+  /* font-family: DMsans; */
+  /* -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+  /* padding-top: 100px; */
+  /* background-color: var(--white); */
+  font-family: 'Poppins', sans-serif;
+  background-image: url('img/bg_img.jpg');
+  background-size: cover;
+  /* min-height: 500px; */
+}
